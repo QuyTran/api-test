@@ -1,6 +1,4 @@
 {
-   "posts": [
-      {
          "items": {
             "29018SHFC3A331GS": 0.583,
             "386A4ZZBA34CD6GS": 0.608,
@@ -35,8 +33,3 @@
          },
          "tag": "sg-cart_trend"
       }
-   ],
-   "profile": {
-      "name": "typicode"
-   }
-}
