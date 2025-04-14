@@ -1,0 +1,434 @@
+{
+  "NSW": {
+    "Sydney Metro": {
+      "Standard": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 8:00 PM on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 8:00 PM on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      },
+      "Premium Swift": {
+        "delivery_time": "3 to 5 hours",
+        "order_by": "Between 7am and 2pm on weekdays",
+        "cost": {
+          "orders_over_75": "$15.95",
+          "orders_under_75": "$17.95"
+        }
+      },
+      "Premium Twilight": {
+        "delivery_time": "Between 6pm and 10pm",
+        "order_by": "Before 2pm on weekdays",
+        "cost": {
+          "orders_over_75": "$15.95",
+          "orders_under_75": "$17.95"
+        }
+      },
+      "Saturday Twilight": {
+        "delivery_time": "Between 5pm and 9pm",
+        "order_by": "Before 1pm Saturday",
+        "cost": {
+          "orders_over_75": "$15.95",
+          "orders_under_75": "$17.95"
+        }
+      }
+    },
+    "NSW Country": {
+      "Standard": {
+        "delivery_time": "1 to 3 business days",
+        "order_by": "Before 11:59 PM on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "ACT": {
+    "Canberra Metro": {
+      "Standard": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 11:59 PM on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 1pm on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "VIC": {
+    "Melbourne Metro": {
+      "Standard": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1:00 PM on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 1pm on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      },
+      "Premium Twilight": {
+        "delivery_time": "Between 6pm and 10pm",
+        "order_by": "Before 8am on weekdays",
+        "cost": {
+          "orders_over_75": "$15.95",
+          "orders_under_75": "$17.95"
+        }
+      }
+    },
+    "VIC Country": {
+      "Standard": {
+        "delivery_time": "2 to 5 business days",
+        "order_by": "Before 11:59 PM on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "QLD": {
+    "Brisbane Metro": {
+      "Standard": {
+        "delivery_time": "2 to 4 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      },
+      "Premium Twilight": {
+        "delivery_time": "Between 6pm and 10pm",
+        "order_by": "Before 8am on weekdays",
+        "cost": {
+          "orders_over_75": "$15.95",
+          "orders_under_75": "$17.95"
+        }
+      }
+    },
+    "Near Country": {
+      "Standard": {
+        "delivery_time": "2 to 5 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Far Country": {
+      "Standard": {
+        "delivery_time": "2 to 5 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 3 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Far North": {
+      "Standard": {
+        "delivery_time": "6 to 12 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 3 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "SA": {
+    "Adelaide Metro": {
+      "Standard": {
+        "delivery_time": "3 to 4 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "SA Country": {
+      "Standard": {
+        "delivery_time": "3 to 6 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "WA": {
+    "Perth Metro": {
+      "Standard": {
+        "delivery_time": "5 to 7 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 business day",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Near Country": {
+      "Standard": {
+        "delivery_time": "6 to 8 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Far Country": {
+      "Standard": {
+        "delivery_time": "6 to 8 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "2 to 4 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "NT": {
+    "Darwin City Suburbs": {
+      "Standard": {
+        "delivery_time": "6 to 8 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Alice Springs": {
+      "Standard": {
+        "delivery_time": "6 to 9 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 3 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "NT Other": {
+      "Standard": {
+        "delivery_time": "6 to 13 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "2 to 4 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "TAS": {
+    "Tasmania": {
+      "Standard": {
+        "delivery_time": "4 to 6 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    },
+    "Tasmania Remote": {
+      "Standard": {
+        "delivery_time": "4 to 17 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$8.95"
+        }
+      },
+      "Express": {
+        "delivery_time": "1 to 2 business days",
+        "order_by": "Before 1pm (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "$4.95",
+          "orders_under_75": "$11.95"
+        }
+      }
+    }
+  },
+  "NZ": {
+    "Metro Areas": {
+      "Auckland": {
+        "Standard": {
+          "delivery_time": "4 business days",
+          "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+          "cost": {
+            "orders_over_75": "FREE",
+            "orders_under_75": "$9.95"
+          }
+        }
+      },
+      "Christchurch": {
+        "Standard": {
+          "delivery_time": "5 business days",
+          "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+          "cost": {
+            "orders_over_75": "FREE",
+            "orders_under_75": "$9.95"
+          }
+        }
+      }
+    },
+    "The rest of NZ": {
+      "Standard": {
+        "delivery_time": "5 business days",
+        "order_by": "Before 11:59 PM (Sydney Time) on weekdays",
+        "cost": {
+          "orders_over_75": "FREE",
+          "orders_under_75": "$9.95"
+        }
+      }
+    }
+  }
+}
